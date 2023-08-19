@@ -20,6 +20,6 @@ export class ColorChanger extends Component{
     }
 
     render() {
-      return ( <ChangeColorBtn onClick={this.changeColor} style={{backgroundColor: this.state.backgroundColor}}>Click :3</ChangeColorBtn>)
+      return ( <ChangeColorBtn onClick={this.changeColor} style={{backgroundColor: this.state.backgroundColor}} type='button'>Click :3</ChangeColorBtn>)
     }
 }
